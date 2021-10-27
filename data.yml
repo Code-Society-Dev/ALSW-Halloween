@@ -1,0 +1,50 @@
+Object { score: 0.30560217471793294, keypoints: (17) […], nose: {…}, leftEye: {…}, rightEye: {…}, leftEar: {…}, rightEar: {…}, leftShoulder: {…}, rightShoulder: {…}, leftElbow: {…}, … }
+​
+keypoints: Array(17) [ {…}, {…}, {…}, … ]
+​
+leftAnkle: Object { x: 646.4882478825314, y: 550.5559115279973, confidence: 0.0025132959708571434 }
+​
+leftEar: Object { x: 461.27455655702823, y: 357.0979617820176, confidence: 0.9784383177757263 }
+​
+leftElbow: Object { x: 658.0396695266902, y: 552.3847088646796, confidence: 0.006043354049324989 }
+​
+leftEye: Object { x: 398.051416790439, y: 329.660789400687, confidence: 0.9997975826263428 }
+​
+leftHip: Object { x: 610.2611022236746, y: 546.0670310885062, confidence: 0.004039542283862829 }
+​
+leftKnee: Object { x: 647.8283857649866, y: 547.2508542546966, confidence: 0.0033240471966564655 }
+​
+leftShoulder: Object { x: 573.9589907872538, y: 483.5359470946315, confidence: 0.31176698207855225 }
+​
+leftWrist: Object { x: 653.2706234705587, y: 521.0411600194552, confidence: 0.007106902077794075 }
+​
+nose: Object { x: 355.2560098254727, y: 366.7508278932089, confidence: 0.9997304081916809 }
+​
+rightAnkle: Object { x: 282.32192072886903, y: 556.7439543134044, confidence: 0.0010909554548561573 }
+​
+rightEar: Object { x: 260.8778850392145, y: 376.31742722329466, confidence: 0.8563323616981506 }
+​
+rightElbow: Object { x: 185.7771069715923, y: 560.2834803956029, confidence: 0.004385615233331919 }
+​
+rightEye: Object { x: 308.3596314901508, y: 333.24940484785384, confidence: 0.9998588562011719 }
+​
+rightHip: Object { x: 256.304913828809, y: 549.8725184577912, confidence: 0.004611556883901358 }
+​
+rightKnee: Object { x: 272.7177025464722, y: 552.655484685638, confidence: 0.001412121346220374 }
+​
+rightShoulder: Object { x: 203.1311655601175, y: 566.3380396505274, confidence: 0.011709843762218952 }
+​
+rightWrist: Object { x: 213.17171326871048, y: 557.5290748024729, confidence: 0.0030752273742109537 }
+​​
+confidence: 0.0030752273742109537
+​​
+x: 213.17171326871048
+​​
+y: 557.5290748024729
+​​
+<prototype>: Object { … }
+​
+score: 0.30560217471793294
+​
+<prototype>: Object { … }
+
