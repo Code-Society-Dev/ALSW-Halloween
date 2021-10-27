@@ -1,0 +1,77 @@
+@import "compass";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%; 
+	overflow: hidden;
+}
+
+body {
+	background-color: #1d1b1b;
+}
+
+[class*="spider"] {
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	margin: 40px 0 0 0;
+	background: #FFF;
+}
+
+.web-right {
+	position: absolute;
+	height: 200px;
+	width: auto;
+	right: -10px;
+	top: -10px;
+	z-index: -1;
+	opacity: 0.7;
+}
+
+.web-left {
+	position: absolute;
+	left: -10px;
+	top: -10px;
+	z-index: -1;
+	opacity: 0.7;
+}
+
+.title_halloween {
+	margin-top: 20px;
+  animation-duration: 3s;
+	font-family: 'Eater';
+	text-align: center;
+  animation-name: flicker;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flicker {
+	0%, 6%, 12% {
+		text-shadow: none;
+		color: #111111;
+	}
+	3%, 9% {
+		text-shadow: 0 0 8px rgba(#fa6701,0.6);
+		color: #fa6701;
+	}
+	60% {
+		text-shadow: 0 0 8px rgba(#fa6701,0.6),
+		 0 0 16px rgba(#fa6701,0.4), 
+		 0 0 20px rgba(255,0,84,0.2), 
+		 0 0 22px rgba(255,0,84,0.1);
+		color: #fa6701;
+	}
+	100% {
+		text-shadow: 0 0 8px rgba(#fa6701,0.6),
+		 0 0 16px rgba(#fa6701,0.4), 
+		 0 0 20px rgba(255,0,84,0.2), 
+		 0 0 22px rgba(255,0,84,0.1);
+		color: #fa6701;
+	}
+}
